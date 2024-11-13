@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Formulario</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <form id="formulario" onsubmit="return validarFormulario()">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script>
+        // Validación del formulario
+        function validarFormulario() {
+            var nombre = document.getElementById("nombre").value;
+            if (nombre === "") {
+                alert("Por favor, ingresa tu nombre.");
+                return false; // Impide el envío del formulario
+            }
+            return true; // Permite el envío del formulario
+        }
+    </script>
+</body>
+</html>
+    
