@@ -12,15 +12,11 @@ Crea una página web que permita al usuario iniciar una cuenta regresiva desde u
 
 ### Pistas para resolver el ejercicio:
 
-1. **Usa document.getElementById para seleccionar los elementos del HTML (el botón, el campo de texto y el párrafo donde se mostrará el tiempo).**
-
-2. **Convierte el valor ingresado por el usuario en el campo de texto a un número con parseInt antes de usarlo.**
-
-3. **Usa setInterval para ejecutar una función repetidamente cada segundo (1000 milisegundos).**
-
-4. **Dentro del intervalo, reduce el tiempo en 1 (time--) y actualiza el contenido del párrafo con el tiempo restante.**
-
-5. **Usa clearInterval para detener el temporizador cuando el tiempo llegue a 0.**
+1. Usa document.getElementById para seleccionar los elementos del HTML (el botón, el campo de texto y el párrafo donde se mostrará el tiempo).
+2. Convierte el valor ingresado por el usuario en el campo de texto a un número con parseInt antes de usarlo.
+3. Usa setInterval para ejecutar una función repetidamente cada segundo (1000 milisegundos).
+4. Dentro del intervalo, reduce el tiempo en 1 (time--) y actualiza el contenido del párrafo con el tiempo restante.
+5. Usa clearInterval para detener el temporizador cuando el tiempo llegue a 0.
 
 ---
 
