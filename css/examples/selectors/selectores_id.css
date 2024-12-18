@@ -1,0 +1,5 @@
+/* Aplicar estilos solo al elemento con ID header */
+#header {
+  background-color: green;
+  color: white;
+}

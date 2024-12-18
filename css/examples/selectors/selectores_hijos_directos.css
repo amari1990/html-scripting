@@ -1,0 +1,4 @@
+/* Aplicar color azul solo a los hijos directos del div */
+div > p {
+  color: blue;
+}

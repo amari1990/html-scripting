@@ -1,0 +1,4 @@
+/* Aplicar estilos a los inputs de tipo texto */
+input[type="text"] {
+  border: 1px solid black;
+}

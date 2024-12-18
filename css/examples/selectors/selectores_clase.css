@@ -1,0 +1,5 @@
+/* Aplicar estilos a todos los elementos con la clase button */
+.button {
+  background-color: red;
+  color: white;
+}

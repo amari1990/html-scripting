@@ -1,0 +1,4 @@
+/* Aplicar color rojo a los párrafos dentro de un div */
+div p {
+  color: red;
+}

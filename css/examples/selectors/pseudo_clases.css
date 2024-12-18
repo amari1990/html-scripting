@@ -1,0 +1,9 @@
+/* Cambiar el color del enlace cuando se pasa el ratón por encima */
+a:hover {
+  color: orange;
+}
+
+/* Aplicar negrita al primer párrafo */
+p:first-child {
+  font-weight: bold;
+}

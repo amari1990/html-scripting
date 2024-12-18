@@ -1,0 +1,5 @@
+/* Insertar un contenido antes del encabezado */
+h1::before {
+  content: "👉 ";
+  color: red;
+}

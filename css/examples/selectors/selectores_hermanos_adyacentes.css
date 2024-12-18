@@ -1,0 +1,4 @@
+/* Aplicar color verde solo al primer párrafo que sigue a un h1 */
+h1 + p {
+  color: green;
+}
